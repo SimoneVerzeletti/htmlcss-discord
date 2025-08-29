@@ -1,97 +1,147 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* COMMON */
 
 /* layout */
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: #255EE9;
-    height: 80px;
-    justify-content: center;
+  background-color: #255ee9;
+  height: 80px;
+  justify-content: center;
 }
 
 nav {
-    width: 80%;
-    align-items: center;
+  width: 80%;
+  align-items: center;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-
 a {
-    text-decoration: unset;
-    color: white;
+  text-decoration: unset;
+  color: white;
 }
 
 .sct-1 {
-    background-image: url(../img/jumbo.png);
-    background-size: 100% 100%;
-    color: white;
-    height: 500px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 500px;
 }
 
-.sct-1 h2 {
-    font-size: 2.5rem;
+h2 {
+  font-size: 2.5rem;
 }
 
 .sct-1 p {
-    padding: 35px 0;
+  padding: 35px 0;
 }
+
+.sct-2 {
+  width: 70%;
+  margin: 0 auto;
+  gap: 40px;
+}
+
 .content {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.conten-img {
+  width: 40%;
+}
+
+.txt-cont {
+  width: 60%;
 }
 
 /* utilities */
+.debug {
+  border: solid black 1px;
+}
+
+.w-70 {
+  width: 70%;
+}
+
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .justy-sb {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justy-cent {
-    justify-content: center;
+  justify-content: center;
 }
 
 .aln-cent {
-    align-items: center;
+  align-items: center;
 }
+
 .txt-cent {
-    text-align: center;
+  text-align: center;
 }
+
+.mt-15 {
+  margin-top: 15px;
+}
+
 .pr-15 {
-    padding-right: 15px;
+  padding-right: 15px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }
 
 .btn-white {
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-    padding: 10px 14px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  padding: 10px 14px;
 }
 
 .btn-black {
-    background-color: black;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 14px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 14px;
+}
+
+.btn-purple {
+  background-color: #7289da;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 14px;
+  font-size: ;
+}
+
+.arrow {
+  height: 20px;
 }
